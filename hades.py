@@ -32,9 +32,9 @@ download_base_path = "./downloads"
 class Hades:
     def __init__(self):
         # Envars
-        self.__CLIENT_ID = os.environ.get("CLIENT_ID")
-        self.__CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
-        self.__USER_ID = os.environ.get("USER_ID")
+        self.__CLIENT_ID = os.environ.get("7d1f7599338d457a853ecd6fb5257352")
+        self.__CLIENT_SECRET = os.environ.get("a52ae085f48f4201aedf97a962ccb20f")
+        self.__USER_ID = os.environ.get("Oscar")
 
         self.auth_manager = SpotifyClientCredentials(
             client_id=self.__CLIENT_ID, client_secret=self.__CLIENT_SECRET
